@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: #002339;
+}
+.container{
+    width: 90%;
+    max-width: 700px;
+    margin: 12%;
+}
+.container h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+} 
+.container h1 span{
+    color: #019f55;
+    border-bottom: 1px solid #019f55;
+    padding-bottom: 7px;
+}
+.display{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+input{
+    width: 100%;
+    max-width: 400px;
+    padding: 18px;
+    font-size: 24px;
+    border: 0;
+    outline:0;
+}
+i{
+    width: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #019f55;
+}
+button{
+    background-color: #019f55;
+    color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.container button img{
+    width: 20px;
+    margin-right: 7px;
+}
+@media (min-width:0px) and (max-width:320px){
+    input{
+        padding: 15px;
+        font-size: 17px;
+       
+    }
+    .container h1{
+        font-size: 35px;
+    } 
+}
+@media (min-width:321px) and (max-width:380px){
+    .container h1{
+        font-size: 44px;
+    } 
+}
